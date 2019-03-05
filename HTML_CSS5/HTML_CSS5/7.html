@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        * {color : palevioletred;}
+        h1,p {color : darkgray;}
+        #header {color : aqua;}
+        .menu {color:red;}
+        .menu2 {background-color:aqua;}
+        li.menu {background-color:blueviolet;}
+    </style>
+</head>
+<body>
+    <!-- HTML5 이전의 레이아웃 구성 방식-->
+    <div>
+        <h1 id="header">HTML5 Header</h1>
+    </div>
+    <div>
+        <ul>
+            <li class="menu"><a href="#" class="menu menu2">Menu -1</a></li>
+            <li><a href="#">Menu -2</a></li>
+            <li class="menu"><a href="#">Menu -3</a></li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <h1 class="menu">뭐시기 뭐시기 어쩌고 저쩌고</h1>
+            <p>뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고, 뭐시기 뭐시기 어쩌고 저쩌고</p>
+        </div>
+        <div>
+            <h1>뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고</h1>
+            <p>뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고</p>
+        </div>
+    </div>
+    <div>
+        <span> 서울특별시 강서구 내발산동</span>
+    </div>
+
+
+    <!-- HTML5의 레이아웃 구성 방식 사람의 눈에도 컴퓨터의 눈에도 의미파악이 명확해짐.-->
+
+    <header>
+        <h1>HTML5 Header</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Menu -1</a></li>
+            <li><a href="#">Menu -2</a></li>
+            <li><a href="#">Menu -3</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>뭐시기 뭐시기 어쩌고 저쩌고</h1>
+            <p>뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고, 뭐시기 뭐시기 어쩌고 저쩌고</p>
+        </article>
+        <article>
+            <h1>뭐시기 뭐시기 어쩌고 저쩌고</h1>
+            <p>뭐시기 뭐시기 어쩌고 저쩌고뭐시기 뭐시기 어쩌고 저쩌고, 뭐시기 뭐시기 어쩌고 저쩌고</p>
+        </article>
+    </section>
+    <footer>
+        <address>서울특별시 강서구 내발산동</address>
+    </footer>
+</body>
+</html>

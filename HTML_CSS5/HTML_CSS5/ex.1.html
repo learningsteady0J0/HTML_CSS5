@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ex</title>
+    <link href="https://fonts.googleapis.com/css?family=Srisakdi:400,700&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
+    <!-- 초기화 -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border: 0;
+        }
+    </style>
+
+    <!-- 헤더 -->
+    <style>
+        #main_header {
+            /* 중앙 정렬 */
+            width: 960px;
+            margin: 0 auto;
+            /* 절대 좌표 */
+            height: 160px;
+            position: relative;
+        }
+
+            #main_header > #title {
+                position: absolute;
+                left: 20px;
+                top: 30px;
+            }
+
+            #main_header > #main_gnb {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            #main_header > #main_lnb {
+                position: absolute;
+                right: 0;
+                bottom: 10px;
+            }
+    </style>
+
+    <!-- 타이틀 -->
+    <style>
+        #title {
+            font-family: 'Srisakdi', cursive;
+        }
+    </style>
+
+    <!-- 메뉴(1) -->
+    <style>
+        #main_gnb > ul { overflow: hidden; }
+        #main_gnb > ul > li { float: left; }
+        #main_gnb > ul > li > a {
+            display: block;
+            padding: 2px 10px;
+            border: 1px solid black;
+        }
+        #main_gnb > ul > li > a:hover {
+            background: black;
+            color: white;
+        }
+        #main_gnb > ul > li:first-child > a { border-radius: 10px 0 0 10px; }
+        #main_gnb > ul > li:last-child > a { border-radius: 0 10px 10px 0; }
+    </style>
+
+    <!-- 메뉴(2) -->
+    <style>
+           <style>
+        #main_lnb > ul { overflow: hidden; }
+        #main_lnb > ul > li { float: left; }
+        #main_lnb > ul > li > a {
+            display: block;
+            padding: 10px 20px;
+            border: 1px solid black;
+        }
+        #main_lnb > ul > li > a:hover {
+            background: black;
+            color: white;
+        }
+        #main_lnb > ul > li:first-child > a {
+            border-radius: 10px 0 0 10px;
+        }
+
+        #main_lnb > ul > li:last-child > a {
+            border-radius: 0 10px 10px 0;
+        }
+    </style>
+    </style>
+
+    <!-- 콘텐츠 -->
+    <style></style>
+
+    <!-- 본문 -->
+    <style></style>
+
+    <!-- 사이드 -->
+    <style></style>
+
+    <!-- 목록 -->
+    <style></style>
+
+    <!-- 푸터 -->
+    <style></style>
+</head>
+<body>
+    <header id="main_header">
+        <hgroup id="title">
+            <h1>Rint Development</h1>
+            <h2>HTML5 + CSS3 Basic</h2>
+        </hgroup>
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Simulation</a></li>
+                <li><a href="#">Data</a></li>
+            </ul>
+        </nav>
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="#">JQuery</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section></section>
+        <aside></aside>
+    </div>
+    <footer></footer>
+</body>
+</html>
+
+공간 분할할 때 순서.
+1. 웹 페이지를 구상
+2. 웹 페이지의 구성 영역을 분리
+3. 구성 영역을 행 단위로 분리 -> 가로로 선을 그릴 수 있는 부분을 분리하기.
+4. 나누어진 행의 내부 요소를 분리
+
+폴더에 ex1)레이아웃 저장 해놨음.

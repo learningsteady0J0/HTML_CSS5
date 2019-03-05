@@ -1,0 +1,38 @@
+﻿<!-- 상태 선택자 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        input:enabled { background-color : white;}
+        input:disabled { background-color : gray;}
+        input:focus { background-color : orange;}
+        input[type=checkbox]:checked + div {
+            height: 0px;
+        }
+        div{
+            overflow: hidden;
+            width: 650px; height: 300px;
+
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            -o-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enabled</h2>
+    <input />
+    <h2>Disabled</h2>
+    <input disabled="disabled" />
+    <hr/>
+
+    <input type="checkbox" />
+    <div>
+        <h1>Lorem ipsum</h1>
+        <p>하늘 천 땅 지 누를 황 검을 현</p>
+    </div>
+</body>
+</html>

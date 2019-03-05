@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<!-- 웹 브라우저마다 표시되는 video 태그의 형태가 일관되지 않으므로 웹페이지를 디잔인할때 문제가 됨
+     또 인터넷 익스플로러 8이하에서는 video 태그가 동작하지 않음 이러한 문제해결을 위한 플러그인 video.js 사용법-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Video.js Basic</title>
+    <link href="//vjs.zencdn.net/4.9/video-js.css" rel="stylesheet" />
+    <script src="//vjs.zencdn.net/4.9/video.js"></script>
+</head>
+<body>
+    <video controls="controls" width="640" height="360"
+           class="video-js vjs-default-skin" data-setup="{}">
+        <source src="Wildlife.mp4" type="video/mp4" />
+        <source src="Wildlife.webm" type="video/webm" />
+    </video>
+</body>
+</html>
